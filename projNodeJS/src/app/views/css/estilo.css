@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(145, 172, 172);    
+}
+/* Posiciona os botões do cabeçalho */
+#btnCadastrar {
+    position: relative;
+    left: 1100px;
+}
+#btnLogar {
+    position: relative;
+    left: 1140px;
+}
+/*-----------------------------------*/
+
+/* Box para o preenchimento do forms */
+.box{   
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgb(68, 68, 85);
+    border-radius: 30px;    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+}
+#boxLogin{
+    width: 500px;
+    height: 200px;        
+}
+#boxCadastro{
+    width: 500px;
+    height: 310px;    
+}
+/*-------------------------------------*/
+input, label{
+    margin: 12px 0 12px 0;    
+}
+h1{
+    text-align: center;        
+}
+label{
+    color: rgba(255, 255, 255, 0.726);
+}
+input[type=button]{
+    text-align: center;
+}

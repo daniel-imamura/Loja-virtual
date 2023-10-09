@@ -1,0 +1,57 @@
+/*Posiciona os botões do cabeçalho*/
+#btnEletronicos {
+    position: relative;
+    left: 380px;
+}
+#btnCasa {
+    position: relative;
+    left: 400px;
+}
+#btnEsportes {
+    position: relative;
+    left: 420px;
+}
+#btnDeslogar {
+    position: relative;
+    left: 870px;
+/* --------------------------------*/
+}
+#carrinho {    
+    display: none;    
+    width: 80%;
+    height: 90px;    
+    position: sticky;
+    top: 50px; 
+    margin: 0 100px;  
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 15px;    
+    border: solid 2px rgb(132, 146, 145);
+    font: normal 20px Arial;    
+    background-color: rgb(186, 199, 198);
+}
+
+.img {
+    width: 200px;    
+    margin: 20px 0 50px 0;    
+}
+img{ 
+    margin-bottom: 20px;
+}
+/* Configura as bordas divisórias dos produtos */
+div[name=divisor] {
+    height: 10px;
+    margin: 40px 0;    
+    border-bottom: solid 1px black;
+}
+
+.borda {
+    border: solid 1px rgb(146, 141, 141);
+    margin: 0 45px;
+}
+/*----------------------------------------------*/
+
+/*Deixa os códigos dos produtos invisíveis*/
+.cod {
+    visibility: hidden;
+}
